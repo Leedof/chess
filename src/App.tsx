@@ -1,11 +1,11 @@
-import './App.css';
+import './App.scss';
 
 function App() {
 
   return (
-    <>
-     Help
-    </>
+    <div className='app'>
+      Help
+    </div>
   );
 }
 

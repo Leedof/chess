@@ -1,0 +1,37 @@
+*,::after,::before {
+	margin: 0;
+	padding: 0;
+}
+
+$cellSize : 64px;
+
+.app {
+	width:100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.board {
+	width: calc($cellSize * 8);
+	height: calc($cellSize * 8);
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cell {
+	width: $cellSize;
+	height: $cellSize;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.black {
+	background-color: #B7C0D8;
+}
+
+.white {
+	background-color: #E8EDF9;
+}
